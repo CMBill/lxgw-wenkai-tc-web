@@ -57,7 +57,7 @@
 
 例如若只需調用 LXGW Wenkai Mono TC，則只需引入：
 ```
-https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-web/fonts/lxgwwenkaimonotc-regular/result.css
+https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-tc-web/fonts/lxgwwenkaimonotc-regular/result.css
 ``` 
 
 ### 自行部署
