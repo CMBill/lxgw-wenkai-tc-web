@@ -19,7 +19,7 @@
 ```html
 <html>
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-tc-web/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-web@latest/style.css" />
   <style>
     body {
       font-family: "LXGW WenKai TC";
@@ -48,35 +48,31 @@
 
 | 字體                      | 鏈接                                                              |
 | ------------------------- | ----------------------------------------------------------------- |
-| LXGW Wenkai TC            | `https://repositoryURL/fonts/lxgwwenkaitc-regular/result.css`     |
-| LXGW Wenkai TC Bold       | `https://repositoryURL/fonts/lxgwwenkaitc-bold/result.css`        |
-| LXGW Wenkai TC Light      | `https://repositoryURL/fonts/lxgwwenkaitc-light/result.css`       |
-| LXGW WenKai Mono TC       | `https://repositoryURL/fonts/lxgwwenkaimonotc-regular/result.css` |
-| LXGW WenKai Mono TC Bold  | `https://repositoryURL/fonts/lxgwwenkaimonotc-bold/result.css`    | 
-| LXGW WenKai Mono TC Light | `https://repositoryURL/fonts/lxgwwenkaimonotc-light/result.css`   |
+| LXGW Wenkai TC            | `https://repositoryURL/lxgwwenkaitc-regular/result.css`     |
+| LXGW Wenkai TC Bold       | `https://repositoryURL/lxgwwenkaitc-bold/result.css`        |
+| LXGW Wenkai TC Light      | `https://repositoryURL/lxgwwenkaitc-light/result.css`       |
+| LXGW WenKai Mono TC       | `https://repositoryURL/lxgwwenkaimonotc-regular/result.css` |
+| LXGW WenKai Mono TC Bold  | `https://repositoryURL/lxgwwenkaimonotc-bold/result.css`    | 
+| LXGW WenKai Mono TC Light | `https://repositoryURL/lxgwwenkaimonotc-light/result.css`   |
 
 例如若只需調用 LXGW Wenkai Mono TC，則只需引入：
 ```
-https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-tc-web/fonts/lxgwwenkaimonotc-regular/result.css
+https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-web@latest/lxgwwenkaimonotc-regular/result.css
 ``` 
 
 ### 自行部署
 如果下方提供的連結連接效果不甚理想，建議自行部署並配合自己的 CDN 使用。可以直接 Fork 本倉庫並啟用 Github Pages，使用時將下方連結修改為自己的倉庫地址即可，亦可直接克隆本倉庫到服務端、對象存儲等。
 
-### 使用 JsDelivr 的 CDN
-#### 最新版本
+### 使用 CDN
+#### 作為 npm 包（推荐）
+目前已作為 npm 包上傳到 npmjs，可以使用 npm 包的鏡像引用，如 JSDeliver 的 npm 鏡像：
 ```
-https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-tc-web/style.css
+https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-web@latest/style.css
 ```
 
-#### 特定版本
-將連結中的 `$VERSION` 替換為目標版本號，如 `1.011` 或 `v1.011` 均可。目前僅提供 `v1.011` 及之後的版本。
+也可指定版本號，將連結中的 `$VERSION` 替換為目標版本號（但 npm 的語義化版本號回省略版本號數字開頭的 0，具體版本號建議先查詢 npmjs），如 `1.011` 或 `v1.011` 均可。目前僅提供 `v1.011` 及之後的版本。
 ```
-https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-tc-web@VERSION/style.css
-```
-例如請求 `v1.011` 版本的字體：
-```
-https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-tc-web@1.011/style.css
+https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-web@VERSION/style.css
 ```
 
 ### 直接使用本倉庫連結
