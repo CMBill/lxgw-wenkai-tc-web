@@ -76,9 +76,3 @@ https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-web@latest/style.css
 ```
 https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-web@VERSION/style.css
 ```
-
-### 直接使用本倉庫連結
-隻提供最新版本
-```
-https://cmbill.github.io/lxgw-wenkai-tc-web/style.css
-```
