@@ -72,7 +72,7 @@ https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-web@latest/lxgwwenkaimonotc-regular/
 https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-web@latest/style.css
 ```
 
-也可指定版本號，將連結中的 `$VERSION` 替換為目標版本號（但 npm 的語義化版本號回省略版本號數字開頭的 0，具體版本號建議先查詢 npmjs），如 `1.011` 或 `v1.011` 均可。目前僅提供 `v1.011` 及之後的版本。
+也可指定版本號，將連結中的 `$VERSION` 替換為目標版本號（但 npm 的語義化版本號省略版本號數字開頭的 0，具體版本號建議先查詢 npmjs），如 `1.011` 或 `v1.011` 均可。目前僅提供 `v1.011` 及之後的版本。
 ```
 https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-web@VERSION/style.css
 ```
