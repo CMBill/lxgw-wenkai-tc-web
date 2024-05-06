@@ -68,6 +68,7 @@ jobs:
       
       - name: Edit package.json And Publish
         run: |
+          cd fonts
           git checkout main -- package.json
           VER=$(cat VERSION)
           NORMALIZED_VERSION=$(echo $VER | sed 's/^v//' | awk -F. '{if($3==null) print$1"."$2".0"; else print$0}')
