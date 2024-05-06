@@ -74,4 +74,6 @@ jobs:
           VER=$(cat VERSION)
           NORMALIZED_VERSION=$(echo $VER | sed 's/^v//' | awk -F. '{if($3==null) print$1"."$2".0"; else print$0}')
           npm version $NORMALIZED_VERSION --no-git-tag-version
-          npm publish --token ${{ secrets.NPM_AUTH_TOKEN }}
+          npm publish
+        env: 
+          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
