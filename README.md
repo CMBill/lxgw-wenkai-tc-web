@@ -63,7 +63,7 @@ https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-web@latest/lxgwwenkaimonotc-regular/
 ``` 
 
 ### 自行部署
-如果下方提供的連結連接效果不甚理想，建議自行部署並配合自己的 CDN 使用。可以直接 Fork 本倉庫並啟用 Github Pages，使用時將下方連結修改為自己的倉庫地址即可，亦可直接克隆本倉庫到服務端、對象存儲等。
+如果下方提供的連結連接效果不甚理想，建議自行部署並配合自己的 CDN 使用，可以直接克隆本倉庫到服務端、對象存儲等。
 
 ### 使用 CDN
 #### 作為 npm 包（推荐）
