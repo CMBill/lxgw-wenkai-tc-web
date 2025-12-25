@@ -3,6 +3,10 @@ name: Split Fonts
 on:
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   build:
     name: get the fonts
@@ -96,5 +100,5 @@ jobs:
       - run: |
           cd fonts
           npm publish
-        env: 
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+        # env: 
+        #  NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
